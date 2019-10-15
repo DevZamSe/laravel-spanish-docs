@@ -171,7 +171,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Flight extends Model
 {
-    /**
+    /** Comentario
     * The storage format of the model's date columns.
     *
     * @var string

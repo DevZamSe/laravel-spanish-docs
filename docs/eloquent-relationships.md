@@ -351,7 +351,7 @@ De forma predeterminada, solo las claves del modelo estarán presentes en el obj
 return $this->belongsToMany('App\Role')->withPivot('column1', 'column2');
 ```
 
-Si quieres que tu tabla pivote automáticamente mantenga las marcas de tiempo `created_at` y `updated_at`, usa el método `withTimestamps` en la definición de la relación:
+Si quieres que tu tabla pueda pivotear automáticamente mantenga las marcas de tiempo `created_at` y `updated_at`, usa el método `withTimestamps` en la definición de la relación:
 
 ```php
 return $this->belongsToMany('App\Role')->withTimestamps();
